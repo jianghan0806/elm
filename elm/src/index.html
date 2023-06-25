@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <!-- ... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <link href="/tailwind.css" rel="stylesheet">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="css/iconfont (1)/iconfont.css">
+</head>
+<body>
+<section class="h-full flex flex-col">
+    <main class="flex-grow overflow-auto">
+        <header class="bg-blue-400">
+            <div class="text-[1.5rem] text-white p-2">
+                <i class="i icon-park-outline:surprised-face-with-open-mouth pt-1"></i>沈阳市规划大厦</div>
+            <div class="p-2">
+                <div class="bg-white text-gray-100 m-2 p-2">
+                    搜索饿了么商家、商品名称
+                </div>
+            </div>
+        </header>
+        <!-- 点餐分类部分 -->
+        <ul class="flex flex-wrap">
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl01.png">
+                <p>美食</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl02.png">
+                <p>早餐</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl03.png">
+                <p>跑腿代购</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl04.png">
+                <p>汉堡披萨</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl05.png">
+                <p>甜品饮品</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl06.png">
+                <p>速食简餐</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl07.png">
+                <p>地方小吃</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl08.png">
+                <p>米粉面馆</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl09.png">
+                <p>包子粥铺</p>
+            </li>
+            <li class="w-17 block" onclick="location.href='businessList.html'">
+                <img src="assets/dcfl10.png">
+                <p>炸鸡炸串</p>
+            </li>
+        </ul>
+        <!-- 横幅广告部分 -->
+        <div class="p-4 h-28 bg-cover bg-[url('../src/assets/index_banner.png')]
+">
+            <h3 class="text-xl font-bold">品质套餐</h3>
+            <p class="mt-1 text-gray-600">搭配齐全吃得好</p>
+            <a class="mt-2 text-yellow-700">立即抢购 &gt;</a>
+        </div>
+        <!-- 超级会员部分 -->
+        <div class="bg-yellow-200 flex flex-wrap space-x-10">
+            <div class="left flex flex-wrap">
+                <img src="assets/super_member.png">
+                <h3>超级会员</h3>
+                <p>&#8226; 每月享超值权益</p>
+            </div>
+            <div class="text-right ">
+                <a class="mt-2 text-yellow-700">立即开通 &gt;</a>
+            </div>
+        </div>
+        <!-- 推荐商家部分 -->
+        <div class="py-5 text-center">
+            <p>——   推荐商家   ——</p>
+        </div>
+
+        <!-- 推荐方式部分 -->
+        <ul class="flex flex-wrap justify-between items-center">
+            <div class="flex flex-col  w-1/4 py-2 px-2">
+                <select class="text-gray-700 hover:text-blue-600 hover:font-bold">
+                    <option>销量最高</option>
+                    <option>距离最近</option>
+                    <option>好评优先</option>
+                    <option>起送价最低</option>
+                    <option>配送最快</option>
+                    <option>配送费最低</option>
+                </select>
+            </div>
+
+            <button class="px-2 py-1 w-1/4 bg-white rounded-md  hover:text-blue-600 hover:font-bold text-gray-700 font-medium hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500">距离最近</button>
+            <button class="px-2 py-1 w-1/4 bg-white rounded-md  hover:text-blue-600 text-gray-700 font-medium hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500">销量最高</button>
+            <div class="flex flex-col  w-1/4 py-2 px-2">
+                <select class="text-gray-700 hover:text-blue-600  hover:font-bold">
+                    <option>筛选</option>
+                    <option>销量最高</option>
+                    <option>距离最近</option>
+                    <option>好评优先</option>
+                    <option>起送价最低</option>
+                    <option>配送最快</option>
+                    <option>配送费最低</option>
+                </select>
+            </div>
+        </ul>
+        <div class="flex flex-wrap py-2" >
+            <img src="assets/sj01.png" alt="avatar" class="w-22 h-22 pr-3">
+            <div>
+                <button class="text-gray-700 flex flex-wrap">万家饺子（软件园E18店）</button>
+                <div class="mt-1 text-gray-600 flex flex-wrap space-x-4">
+                    <p class="mt-1 text-gray-600 text-left">4.9 月售345单</p>
+                    <p class="mt-1 text-blue-700 text-right">蜂鸟专送</p>
+                </div>
+                <div class="mt-1 text-gray-600 flex space-x-4">
+                    <p >&#165;15起送 | &#165;3配送   </p>
+                    <p>3.22km | 30分钟</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap py-2" >
+            <img src="assets/sj02.png" alt="avatar" class="w-22 h-22 pr-3">
+            <div>
+                <button class="text-gray-700 flex flex-wrap">小锅饭豆腐馆（全运店）</button>
+                <div class="mt-1 text-gray-600 flex flex-wrap space-x-4">
+                    <p class="mt-1 text-gray-600 text-left">4.9 月售345单</p>
+                    <p class="mt-1 text-blue-700 text-right">蜂鸟专送</p>
+                </div>
+                <div class="mt-1 text-gray-600 flex space-x-4">
+                    <p >&#165;15起送 | &#165;3配送   </p>
+                    <p>3.22km | 30分钟</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap py-2" >
+            <img src="assets/sj03.png" alt="avatar" class="w-22 h-22 pr-3">
+            <div>
+                <button class="text-gray-700 flex flex-wrap">麦当劳麦乐送（全运路店）</button>
+                <div class="mt-1 text-gray-600 flex flex-wrap space-x-4">
+                    <p class="mt-1 text-gray-600 text-left">4.9 月售345单</p>
+                    <p class="mt-1 text-blue-700 text-right">蜂鸟专送</p>
+                </div>
+                <div class="mt-1 text-gray-600 flex space-x-4">
+                    <p >&#165;15起送 | &#165;3配送   </p>
+                    <p>3.22km | 30分钟</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap  py-2" >
+            <img src="assets/sj04.png" alt="avatar" class="w-22 h-22 pr-3">
+            <div>
+                <button class="text-gray-700 flex flex-wrap">米村拌饭（浑南店）</button>
+                <div class="mt-1 text-gray-600 flex flex-wrap space-x-4">
+                    <p class="mt-1 text-gray-600 text-left">4.9 月售345单</p>
+                    <p class="mt-1 text-blue-700 text-right">蜂鸟专送</p>
+                </div>
+                <div class="mt-1 text-gray-600 flex space-x-4">
+                    <p >&#165;15起送 | &#165;3配送   </p>
+                    <p>3.22km | 30分钟</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="h-16 border-t border-t-gray-400 flex-shrink-0 bg-gray-100 text-gray-600 flex justify-around items-center">
+        <div class="text-center leading-none"><i class="i icon-park-outline:home !text-2xl"></i>
+            <div>首页</div></div>
+        <div class="text-center leading-none"><i class="i icon-park-outline:compass-one !text-2xl"></i>
+            <div>发现</div></div>
+        <div class="text-center leading-none"><i class="i icon-park-outline:surprised-face-with-open-mouth !text-2xl"></i>
+            <div>订单</div></div>
+        <div class="text-center leading-none"><i class="i icon-park-outline:personal-collection !text-2xl"></i>
+            <div>我的</div></div>
+    </footer>
+</section>
+<!-- ... -->
+</body>
+</html>

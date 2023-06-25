@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+  <link href="/tailwind.css" rel="stylesheet">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="css/iconfont (1)/iconfont.css">
+</head>
+<body>
+<section class="h-full flex flex-col">
+  <header class="fixed w-full bg-blue-400 h-10">
+    <div class="text-[1.5rem] text-white p-2">
+      <i class="flex justify-center text-center">用户登陆</i>
+    </div>
+  </header>
+  <main class="mt-10 flex-grow overflow-auto">
+    <!-- 点餐分类部分 -->
+    <ul class="form-box">
+      <div class="flex">
+        <div class="title w-1/4 text-left text-gray-500 pr-0 font-bold">
+          手机号码：
+        </div>
+        <div class="content w-3/4">
+          <input type="text" placeholder="手机号码" class="w-full px-2 py-1 rounded-md border-none focus:outline-none">
+        </div>
+      </div>
+      <div class="flex">
+        <div class="title w-1/4 text-left text-gray-500 pr-0 font-bold">
+          密码：
+        </div>
+        <div class="content w-3/4">
+          <input type="password" placeholder="密码" class="w-full px-2 py-1 rounded-md border-none focus:outline-none">
+        </div>
+      </div>
+    </ul>
+
+    <div class="button-login mt-8">
+      <button class="w-full bg-green-500 text-white px-4 py-2 rounded">登陆</button>
+    </div>
+    <div class="button-register mt-4">
+      <button onclick="location.href='register.html'" class="w-full bg-gray-200 text-gray-700 px-4 py-2 rounded">去注册</button>
+    </div>
+  </main>
+
+  <footer class="h-16 border-t border-t-gray-400 flex-shrink-0 bg-gray-100 text-gray-600 flex justify-around items-center">
+    <div class="text-center leading-none"><i class="i icon-park-outline:home !text-2xl"></i>
+      <div>首页</div></div>
+    <div class="text-center leading-none"><i class="i icon-park-outline:compass-one !text-2xl"></i>
+      <div>发现</div></div>
+    <div class="text-center leading-none"><i class="i icon-park-outline:surprised-face-with-open-mouth !text-2xl"></i>
+      <div>订单</div></div>
+    <div class="text-center leading-none"><i class="i icon-park-outline:personal-collection !text-2xl"></i>
+      <div>我的</div></div>
+  </footer>
+</section>
+<!-- ... -->
+</body>
+</html>

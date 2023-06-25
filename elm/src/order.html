@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <!-- ... -->
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <link href="/tailwind.css" rel="stylesheet">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="css/iconfont (1)/iconfont.css">
+</head>
+<body>
+<section class="h-full flex flex-col">
+    <header class="fixed w-full bg-blue-400 h-10">
+        <div class="text-[1.5rem] text-white p-2">
+            <i class="flex justify-center text-center">确认订单</i>
+        </div>
+    </header>
+    <main class="mt-10 flex-grow overflow-auto">
+        <!-- 点餐分类部分 -->
+        <div class="grid place-items-start bg-blue-400 text-left py-2">
+            <p class="text-white">订单配送至：</p>
+            <div class="flex items-center">
+                <p class="text-white text-lg font-bold pr-2 mr-2">沈阳市浑南区智慧四街1-121号</p>
+                <span class="text-white pr-0">></span>
+            </div>
+            <p class="text-white">习近平先生 13656785432</p>
+        </div>
+        <div class="flex flex-wrap py-2 bg-gray-50 border-b-2 border-gray-100">
+            <span class="font-bold text-gray-600">万家饺子（软件园E8店）</span>
+        </div>
+        <div class="flex flex-wrap items-center py-2">
+            <img src="assets/sp01.png" alt="avatar" class="w-1/4 w-12 h-12 pr-3">
+            <div class="flex items-center justify-between flex-grow">
+                <p class="text-left text-gray-400">纯肉鲜肉（水饺）x2</p>
+                <p class="text-right text-gray-500">￥15</p>
+            </div>
+        </div>
+        <div class="flex flex-wrap items-center py-2">
+            <img src="assets/sp02.png" alt="avatar" class="w-1/4 w-12 h-12 pr-3">
+            <div class="flex items-center justify-between flex-grow">
+                <p class="text-left text-gray-400">玉米鲜肉（水饺）x1</p>
+                <p class="text-right text-gray-500">￥13</p>
+            </div>
+        </div>
+        <div class="flex items-center justify-between flex-grow">
+            <p class="text-left text-gray-500">配送费</p>
+            <p class="text-right text-gray-500">￥3</p>
+        </div>
+
+    </main>
+
+    <footer class="flex h-20">
+        <div class="w-2/3 bg-gray-600 text-white h-full h-20 items-center px-0 py-4 text-center">￥49</div>
+        <div class="w-1/3 bg-green-400 h-20 flex items-center justify-center">
+            <a href="payment.html" class="text-center text-white font-bold cursor-pointer">去支付</a>
+        </div>
+    </footer>
+
+
+</section>
+<!-- ... -->
+</body>
+</html>

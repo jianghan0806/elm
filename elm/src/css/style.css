@@ -1,0 +1,27 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    height:100%;
+    font-size: 4vw;
+
+}
+body{
+    height:100%;
+}
+.mainDiv {
+    float: left;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 2%;
+    height: 100px;
+
+}
+.viceDiv_1,.viceDiv_2,.viceDiv_3 {
+    float: left;
+    margin-top: 2% ;
+    margin-left: 2.5%;
+    width: 30%;
+    height: 100px;
+}
